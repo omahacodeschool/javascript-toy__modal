@@ -1,1 +1,32 @@
-/* Replace me with your styles! */
+.modal__background{
+	background-color: #000;
+	opacity: 0.5;
+	margin-left: -8px;
+	width: 100vw;
+	height: 100vh;
+	position: absolute;
+	top: 0;
+	z-index: 2;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.modal__content{
+	background-color: #FFF;
+	opacity: 1.0;
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: flex-end;
+	justify-content: center;
+	padding: 15px;
+}
+
+#modal__text{
+	height: 300px;
+	width: 500px;
+}
+
+#modalwrapper{
+	display: none;
+}
